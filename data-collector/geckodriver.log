@@ -1,0 +1,14 @@
+1631286176888	geckodriver	INFO	Listening on 127.0.0.1:37013
+1631286177737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6skECb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1631286189593	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6skECb/search.json.mozlz4", (void 0)))
+1631286203283	Marionette	INFO	Listening on port 35607
+1631286203672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631286437662	Marionette	INFO	Stopped listening on port 35607
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
